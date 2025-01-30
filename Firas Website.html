@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firas Portfolio</title>
+    <link rel="stylesheet" href="/CSS/Website.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Firas</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" id="about-link">About</a>
+            <a href="#services" id="services-link">Services</a>
+            <a href="#portfolio" id="portfolio-link">Portfolio</a>
+            <a href="#contact" id="contact-link">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Firas Khanchoul</h1>
+            <h3>Frontend Developer</h3>
+            <img class="image" src="/image/Picsart_24-12-18_18-18-41-207-Photoroom.jpg" alt="Firas">
+            <p>Hi, I'm Firas, a passionate web developer from Algeria. I specialize in creating dynamic, user-friendly websites and applications, combining technical expertise with a creative approach to deliver engaging digital solutions.</p>
+            <div class="btn-box">
+                <a href="#contact">Hire Me</a>
+                <a href="#contact">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="/image/Picsart_24-12-18_18-18-41-207-Photoroom.jpg" alt="Firas">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h3>Frontend Developer</h3>
+            <p>Hi, I'm Firas, a passionate web developer from Algeria. I specialize in creating dynamic, user-friendly websites and applications, combining technical expertise with a creative approach to deliver engaging digital solutions.</p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-content">
+            <div class="service">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and dynamic websites using the latest web technologies.</p>
+            </div>
+            <div class="service">
+                <i class='bx bx-paint'></i>
+                <h3>Web Design</h3>
+                <p>Designing user-friendly interfaces and experiences for websites and applications.</p>
+            </div>
+            <div class="service">
+                <i class='bx bx-check'></i>
+                <h3>Problem solver</h3>
+                <p>Fix and correct all websites problems</p>
+            </div>        
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Portfolio</span></h2>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <img src="/image/Capture d’écran 2025-01-30 174647.png" alt="Portfolio 1">
+                <h3>Shops and bussines projects</h3>
+                <p>High level details and designs</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/image/E-commerce.png" alt="Portfolio 2">
+                <h3>e-commerce websites</h3>
+                <p>The way you want and everything you love</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/image/Univ.png" alt="Portfolio 3">
+                <h3>Universitys and Private institutions Websites</h3>
+                <p>Formulaire and well organized</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact hidden" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <h3>firaskhanchoul@gmail.com</h3>
+        <div class="contact-content">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="3937c0db-fc0d-48f8-b389-324fab198b35">
+                <div class="input-box">
+                    <input type="text" name="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" required></textarea>
+                    <label>Message</label>
+                </div>
+                <div class="btn-box">
+                    <button type="submit" class="btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="/JAVA/Website.js"></script>
+</body>
+</html>
